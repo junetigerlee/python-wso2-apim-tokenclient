@@ -14,7 +14,7 @@
 import sys
 from setuptools import setup, find_packages
 
-NAME = "python-wso2-apim-publisherclient"
+NAME = "python-wso2-apim-tokenclient"
 VERSION = "0.11.0"
 # To install the library, run the following
 #
