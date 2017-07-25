@@ -24,7 +24,7 @@ pip install git+https://github.com//.git
 
 Then import the package:
 ```python
-import swagger_client 
+import wso2_apim_tokenclient 
 ```
 
 ### Setuptools
@@ -38,7 +38,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import swagger_client
+import wso2_apim_tokenclient
 ```
 
 ## Getting Started
@@ -48,15 +48,15 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import wso2_apim_tokenclient
+from wso2_apim_tokenclient.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+wso2_apim_tokenclient.configuration.username = 'YOUR_USERNAME'
+wso2_apim_tokenclient.configuration.password = 'YOUR_PASSWORD'
 # create an instance of the API class
-api_instance = swagger_client.TokenApi()
+api_instance = wso2_apim_tokenclient.TokenApi()
 grant_type = 'grant_type_example' # str | 
 username = 'username_example' # str |  (optional)
 password = 'password_example' # str |  (optional)
